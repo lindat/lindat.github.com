@@ -5,11 +5,12 @@
  * We've chosen a classic web layout with the navigation on the left and the main page
  * content on the right.
  * 
- */
+ */	
 
 .content {
 	width: 940px;
 	margin: 0 auto;
+	border: 10px;
 }
 
 #nav {
@@ -17,12 +18,16 @@
 	float: left;
 	margin: 0 20px 0 0;
 }
-
+#profile_picture {
+	height: 200px;
+	margin-bottom:15px;
+}
 #main {
 	width: 659px;
 	padding-left: 20px;
 	margin: 0;
 	float: left;
+	border: 1px;
 }
 
 #copyright {
